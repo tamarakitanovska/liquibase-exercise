@@ -85,6 +85,24 @@
         </update>
     </changeSet>
 
+    <changeSet id="2018-29-11 10:07" author="Tamara Kitanovska">
+        <insert tableName="city">
+            <column name="name" value="Barcelona"/>
+            <column name="state" value="-"/>
+            <column name="country" value="Republic of Spain"/>
+            <column name="map" value="-"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="2018-29-11 10:07" author="Tamara Stankovska">
+        <insert tableName="city">
+            <column name="name" value="Skopje"/>
+            <column name="state" value="-"/>
+            <column name="country" value="Republic of Macedonia"/>
+            <column name="map" value="-"/>
+        </insert>
+    </changeSet>
+
 
 
 
